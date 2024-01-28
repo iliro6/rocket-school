@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/rocket-school/static/css/main.0507deb3.css",
+    "main.js": "/rocket-school/static/js/main.f5940356.js",
+    "static/js/787.392f16a1.chunk.js": "/rocket-school/static/js/787.392f16a1.chunk.js",
+    "static/media/IranianSansBold.ttf": "/rocket-school/static/media/IranianSansBold.b64d1ae2c1a3829a2ffb.ttf",
+    "index.html": "/rocket-school/index.html",
+    "main.0507deb3.css.map": "/rocket-school/static/css/main.0507deb3.css.map",
+    "main.f5940356.js.map": "/rocket-school/static/js/main.f5940356.js.map",
+    "787.392f16a1.chunk.js.map": "/rocket-school/static/js/787.392f16a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0507deb3.css",
+    "static/js/main.f5940356.js"
+  ]
+}
