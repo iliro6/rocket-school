@@ -1,23 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Rocket from "./rocket";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <div className="rocket">
+
+      <Rocket />
+      </div>
+      <div dir="rtl" className="desc">
+        <p>نام موشک : قدر 110</p>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          موشک قدر-۱۱۰ یک موشک بالستیک با برد متوسط و ساخت ایران است. این موشک
+          نخستین بار در یک رژه سالانه به مناسبت سالگرد آغاز جنگ ایران و عراق
+          رونمایی شد. این موشک در دو نوع قدر اچ با برد ۱۶۵۰ کیلومتر و قدر اف با
+          برد ۱۹۵۰کیلومتر تولید شده‌است.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <p>
+          موشک قدر ۱۱۰، مدل بهسازی شده موشک
+          <a href="https://fa.wikipedia.org/wiki/%D8%B4%D9%87%D8%A7%D8%A8_%DB%B3">
+            {" "}
+            شهاب 3{" "}
+          </a>
+          است و در باور برخی، این موشک یک موشک دو مرحله‌ای است که مرحله اول آن،
+          سوخت مایع و مرحله دوم، سوخت جامد دارد که به آن امکان داشتن برد ۱۹۵۰
+          کیلومتر را می‌دهد. این موشک در مقایسه با شهاب ۳ که نصب آن ساعت‌ها زمان
+          می‌برد، زمان نصب بسیار کمتری دارد و در ۳۰ دقیقه نصب می‌شود.
+        </p>
+        <p>
+          <ul>
+            <li>موتور: مرحله اول مایع و مرجله دوم جامد</li>
+            <li>برد : 1800 تا 2000 کیلومتر</li>
+            <li>دقت: 110 متر</li>
+          </ul>
+        </p>
+        <p>
+          منابع:
+          <ul>
+            <a href="https://fa.wikipedia.org/wiki/%D9%82%D8%AF%D8%B1_%DB%B1%DB%B1%DB%B0">
+              <li>ویکی پدیا</li>
+            </a>
+          </ul>
+        </p>
+      </div>
     </div>
   );
 }
